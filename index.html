@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online-Store</title>
+    <style>
+      * {
+        margin: 0px;
+      }
+
+      .container {
+        background-color: white;
+      }
+      .description{
+        margin-left: 20px;
+      }
+      .header {
+        display: flex;
+        justify-content: space-between;
+        background-color: orange;
+      }
+      .row {
+        display: flex;
+        justify-content: center;
+        background-color: silver;
+        flex-wrap: wrap;
+      }
+      
+      .box {
+        background-color: white;
+        margin: 20px;
+        padding: 10px;
+      }
+      .box4{
+        display:flex;
+        align-items:center;
+        background-color: white;
+        margin: 20px;
+        padding: 10px;
+      }
+      .box5{
+        display:flex;
+        align-items:center;
+        background-color: white;
+        margin: 20px;
+        padding: 10px;
+      }
+      
+      li {
+        display:inline-block;
+        padding: 10px;
+        font-size: larger;
+      }
+      a{
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div><h1>Online Store</h1></div>
+        <div>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="login.html">login</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="box">
+          <img src="/assets/images/1.png" />
+          <h2>Product 1</h2>
+          <p>This is the description of the product.</p>
+          <h3>Rs 230</h3>
+          <button>Add to Cart</button>
+        </div>
+        <div class="box">
+          <img src="/assets/images/2.png" />
+          <h2>Product 2</h2>
+          <p>This is the description of the product.</p>
+          <h3>Rs 200</h3>
+          <button>Add to Cart</button>
+        </div>
+        <div class="box">
+          <img src="/assets/images/3.png" />
+          <h2>Product 3</h2>
+          <p>This is the description of the product.</p>
+          <h3>Rs 375</h3>
+          <button>Add to Cart</button>
+        </div>
+        <div class="box4">
+            <img src="/assets/images/4.png" />
+            <div class="description">
+            <h2>Product 4</h2>
+            <p>This is the description of the product. This is a blue coffee mug with a white handle and it has some designs of rabbits on it.There are 4 rabbit designs on it </p>
+            <p>this would be a nice thing to gift someone</p>
+            <h3>Rs 375</h3>
+            <button>Add to Cart</button>
+            </div>
+          </div>
+        <div class="box5">
+            <div class="description">
+            <h2>Product 5</h2>
+            <p>This is the description of the product.This is a packet of starbucks India estated blend medium roast coffee beans &nbsp;</p>
+            <h3>Rs 375</h3>
+            <button>Add to Cart</button>
+        </div>
+            <img src="/assets/images/5.png"/>
+            
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
